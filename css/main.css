@@ -27,6 +27,83 @@ button:hover, button:active {
   border-color: #a80041;
 }
 
+.projects {
+  margin: 1rem;
+  border: 1px solid #ff0062;
+}
+.projects header {
+  background: #ff0062;
+  height: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#finished-projects {
+  border-color: #0044ff;
+}
+#finished-projects header {
+  background: #0044ff;
+}
+
+.projects h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.projects ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+.projects li {
+  -webkit-box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2588235294);
+          box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2588235294);
+  padding: 1rem;
+  margin: 1rem;
+  background: #f5f5f5;
+}
+
+.projects li h2 {
+  color: #ff0062;
+  margin: 0.5rem 0;
+}
+
+#finished-projects li h2 {
+  color: #0044ff;
+}
+
+.projects li h3 {
+  color: #575757;
+  font-size: 1rem;
+}
+
+.project li p {
+  margin: 0;
+}
+
+.droppable {
+  background: #ffe3ee;
+}
+
+#finished-projects .droppable {
+  background: #d6e1ff;
+}
+
+#user-input {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #ff0062;
+  background: #f7f7f7;
+}
+
 label,
 input,
 textarea {
